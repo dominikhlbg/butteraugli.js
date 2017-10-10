@@ -29,6 +29,9 @@ butteraugli({data:[0,0,0,255],width:0,height:0},{data:[0,0,0,255],width:0,height
 ### Example
 
 ```js
+var getPixels = require("get-pixels")
+var butteraugli = require("butteraugli")
+ 
 getPixels("example1.png", function(err, pixels1) {
   if(err) {
     console.log("Bad image path")
