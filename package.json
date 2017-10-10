@@ -1,25 +1,29 @@
 {
   "name": "butteraugli",
   "version": "0.0.0",
-  "description": "",
+  "description": "A tool for measuring perceived differences between images",
   "main": "index.js",
   "directories": {
-    "test": "tests"
   },
   "dependencies": {
-    "css-loader": "^0.26.1",
-    "fast-json-patch": "^1.1.1",
-    "json-merge-patch": "^0.2.3",
-    "style-loader": "^0.13.1",
-    "jamjs": "^0.2.17",
-    "style": "^0.0.3",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.2.9"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominikhlbg/butteraugli.js.git"
+  },
+  "keywords": [
+    "butteraugli",
+    "javascript",
+    "measuring"
+  ],
   "author": "Dominik Homberger",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominikhlbg/butteraugli.js/issues"
+  },
+  "homepage": "https://github.com/dominikhlbg/butteraugli.js#readme"
 }

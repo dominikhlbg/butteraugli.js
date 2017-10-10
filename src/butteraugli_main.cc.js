@@ -213,4 +213,4 @@ var rgb2= readRGBA(rgba2);
   return diff_value;
   return 0;
 }
-window['butteraugli']=butteraugli;
+if(typeof window !== 'undefined') window['butteraugli']=butteraugli;
